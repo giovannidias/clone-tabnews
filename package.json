@@ -1,11 +1,12 @@
 {
-  
   "name": "clone-tabnews",
   "version": "1.0.0",
   "description": "Projeto de estudo, implementa clone do https://tabnews.com.br",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -14,5 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
 }
